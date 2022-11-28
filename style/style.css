@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.boulot{
+
+    background-image: url(../images/image_fond_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    max-width: 100%;
+    max-height: 100%;
+
+    
+}
+.web{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    color: aliceblue;
+}
+.webjnr{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: end;
+    top: 5px;
+}
+.prenom{
+    font-family: "Nerko One rev=2"; font-weight: 400; font-style: normal; line-height: initial; font-stretch: normal;
+    color: aqua;
+    font-size: 55px;
+}
+.dev{
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    padding: 35px;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px solid black;
+    font-size: 15px;
+}
+
+.container_exp{
+    font-family: 'Montserrat', 'sans-serif';
+    background-color: aqua;
+}
+
+.icons{
+    margin-right: 40px;
+    color: black;
+}
+h5{
+    font-size: 58px
+}
+
+.imgmain{
+    margin-top: 25px;
+    margin: 25px;
+    background-image: url(../images/image_en_bas_main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.placement_cln {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.placement_cln li{
+    font-size: 35px;
+    padding: 0;
+    margin: 10px;
+}
+
+.placement_cln li>a{
+    background-color:  white;
+    padding: 3px 10px 3px 10px;
+    font-size: 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.placement_cln a{
+    width: 100px;
+}
+
+i{
+    list-style: none;
+    color: black;
+}
+
+.titre_main{
+    text-align: center;
+    font-size: 45px;
+    margin: 20px;
+    margin-bottom: 55px;
+    background-color: aqua;
+    border-radius: 3em;
+}
+.blockquote-footer{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.colorlettre{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+}
+.resto{
+    text-align: end;
+}
+
+h4{
+ color: aqua;
+ font-size: 45px;
+}
+.list-group{
+    margin: 25px;
+}
+.boulot2{
+    background-image: url(../images/image_fond_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.imgfooter{
+    width: 300px;
+    height: 275px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid white;
+}
+
+.contact_content{
+    padding: 30px;
+}
+
+
+.contact{
+    padding: 0;
+
+}
+.border{
+   padding: 10px;
+   margin: 20px;
+   background-color: rgb(0, 183, 255);
+}
+
+.text_contact{
+    
+    font-size: 35px;
+   color: rgb(255, 255, 255);
+   font-family: "Alfa Slab One rev=2"; font-weight: 400; font-style: normal; line-height: initial; font-stretch: normal;
+
+}
+.boulot3{
+    background-image: url(/images/image_footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}

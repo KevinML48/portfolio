@@ -1,0 +1,10 @@
+.btn{
+    font-size: 75px;
+}
+/*btn est le div principal pour tout les boutons que l'on souhaite*/
+
+.btn-primary{
+    font-size: 25px;
+}
+/*la on a cibler un seul bouton car on la cibler 
+( tu peux en cibler genre "btn-danger" ) sa seras toujours utile*/
