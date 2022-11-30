@@ -125,11 +125,15 @@ h4{
 .list-group{
     margin: 25px;
 }
+.form-group{
+    margin: 25px;
+    margin-left: 250px;
+}
 .boulot2{
     background-image: url(../images/image_fond_footer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 675px;
 }
 .imgfooter{
     width: 300px;
@@ -156,13 +160,12 @@ h4{
 
 .text_contact{
     
-    font-size: 35px;
+    font-size: 25px;
    color: rgb(255, 255, 255);
-   font-family: "Alfa Slab One rev=2"; font-weight: 400; font-style: normal; line-height: initial; font-stretch: normal;
-
+   font-family: "Alfa Slab One rev=2"; 
 }
 .boulot3{
-    background-image: url(/images/image_footer.png);
+    background-image: url(../images/image_footer.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
