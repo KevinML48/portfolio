@@ -99,7 +99,7 @@ i{
 
 .titre_main{
     text-align: center;
-    font-size: 45px;
+    font-size: 55px;
     margin: 20px;
     margin-bottom: 55px;
     background-color: aqua;
@@ -128,6 +128,18 @@ h4{
 .form-group{
     margin: 25px;
     margin-left: 250px;
+}
+.titre_projets{
+    justify-content: center;
+    text-align: center;
+    font-size: 55px;
+    margin: 20px;
+    margin-bottom: 55px;
+    background-color: aqua;
+    border-radius: 3em;
+}
+.contenue_card{
+    margin: 25px;
 }
 .boulot2{
     background-image: url(../images/image_fond_footer.jpg);
