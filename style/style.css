@@ -31,10 +31,10 @@ body{
 .prenom1{
     font-family: "Nerko One rev=2"; font-style: normal; line-height: initial; font-stretch: normal;
     color: rgb(21, 0, 255);
-    font-size: 55px;
+    font-size: 35px;
 }
 .dev{
-    font-size: 65px;
+    font-size: 45px;
     color: rgb(255, 255, 255);
 }
 
@@ -53,7 +53,7 @@ body{
 
 .icons{
     margin-right: 40px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 h5{
     font-size: 58px
@@ -61,9 +61,16 @@ h5{
 #text_main{
     color: rgb(0, 0, 0);
     font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 75px;
+}
+#text_main1{
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 75px;
+    margin-bottom: 145px;
 }
 .imgmain{
-    margin-top: 25px;
+    margin-top: 145px;
     background-image: url(../images/image_en_bas_main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,9 +78,33 @@ h5{
     border-radius: 2em;
     margin-bottom: 45px;
 }
+.card-title{
+    font-size: 25px;
+    color: aqua;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card-title1{
+    color: aqua;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.vscode{
+    width: 125px;
+    border-radius: 1em;
+    
+}
+.lgacquis{
+    width: 75px;
+}
+.qualite{
+    width: 125px;
+    border-radius: 1em;
+}
 .card_body{
     display: flex;
     justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 .cardbody1{
     padding: 15px;
@@ -84,7 +115,6 @@ h5{
 .cardbody3{
     padding: 15px;
 }
-
 #placement_cln {
     display: flex;
     justify-content: end;
@@ -116,12 +146,14 @@ i{
 }
 
 .titre_main{
+    margin-top: 45px;
     text-align: center;
     font-size: 55px;
     margin: 20px;
-    margin-bottom: 55px;
+    margin-bottom: 125px;
     background-color: aqua;
     border-radius: 3em;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .blockquote-footer{
     font-size: 35px;
@@ -162,9 +194,14 @@ h4{
         background-color: aqua;
         border-radius: 3em;
 }
-
-.contenue_card{
-    margin: 25px;
+.crsl_text{
+    color: rgb(65, 153, 235);
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+}
+.carousel-inner{
+    border-radius: 1em;
 }
 #boulot2{
     background-image: url(../images/image_fond_footer.jpg);
@@ -201,6 +238,7 @@ h4{
 }
 .titre_contact{
     font-size: 75px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .boulot3{
     background-image: url(../images/image_footer.png);
@@ -269,10 +307,47 @@ h4{
 
   /* NaV */
 
-  .nav_reseaux{
+  .nav_support{
+    color: aqua;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  .nav_reseaux{
+    color: aqua;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #placement_cln1 {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+}
+
+#placement_cln1 li{
+    font-size: 35px;
+    padding: 0;
+    margin: 10px;
+}
+
+#placement_cln1 li>a{
+    background-color:  white;
+    padding: 3px 10px 3px 10px;
+    font-size: 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#placement_cln1 a{
+    width: 100px;
+}
+
+i{
+    list-style: none;
+    color: black;
+}
 
   /*  Annimation CSS BG */
 
@@ -280,7 +355,7 @@ h4{
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background: linear-gradient(315deg, rgb(172, 0, 14) 3%, rgb(70, 62, 62) 38%, rgb(124, 21, 21) 68%, rgb(107, 78, 78) 98%);
+    background: linear-gradient(315deg, rgb(25, 121, 211) 3%, rgb(12, 159, 204) 38%, rgb(134, 99, 99) 68%, rgb(255, 255, 255) 98%);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -345,3 +420,34 @@ h4{
         transform: translateX(1);
     }
 }
+
+/* ANNIMATION SUR TEXTE*/
+
+.web::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .web:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .web::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgb(65, 182, 162);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  .web {
+    position: relative;
+    font-size: 5rem;
+  }
+
+  /* ANNIMATION CARD TEXTE */
+
